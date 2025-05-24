@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://helm.releases.hashicorp.com
     chart: vault
-    targetRevision: latest
+    targetRevision: 0.27.0
     helm:
       parameters:
         - name: server.dev.enabled
